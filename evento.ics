@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Il Nostro Matrimonio//Calendario Eventi//IT
+BEGIN:VEVENT
+UID:vincenzo.colella@hotmail.com
+DTSTAMP:20231030T120000Z
+DTSTART:20250830T150000Z
+DTEND:20250830T010000Z
+SUMMARY:Matrimonio Ginni e Vinni
+DESCRIPTION:Ci sposiamo! 🌸\n\nNon vediamo l'ora di festeggiare insieme a voi il giorno più bello della nostra vita. La vostra presenza è il regalo più grande che potremmo desiderare!\n\nPer aiutarci a trasformare la nostra luna di miele in un sogno, trovate l'IBAN: XXX
+LOCATION:Basilica Santo Giovanni e Paolo, Roma, Italia
+END:VEVENT
+END:VCALENDAR
