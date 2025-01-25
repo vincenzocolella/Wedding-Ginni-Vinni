@@ -122,8 +122,9 @@
         </div>
         <div class="row">
             <div class="col-sm-4 hidden-xs"></div>
-            <div class="col-sm-4 hidden-xs text-center"><a href="#rsvp"
-                                                           class="btn btn-accent btn-large rsvp-btn">RSVP</a></div>
+            <div class="col-sm-4 hidden-xs text-center">
+                <a href="#rsvp" class="btn btn-accent btn-large rsvp-btn" style="margin-top: -170px;">RSVP</a>
+            </div>
             <div class="col-sm-4 hidden-xs"></div>
         </div>
         
@@ -268,6 +269,10 @@
     const pauseIcon = document.getElementById('pause-icon');
     const volumeSlider = document.getElementById('volume-slider');
 
+    // Imposta il volume iniziale al 10% (molto basso)
+    audio.volume = 0.03;
+    volumeSlider.value = audio.volume; // Sincronizza lo slider
+
     // Sincronizza lo slider del volume con l'audio
     volumeSlider.addEventListener('input', () => {
         audio.volume = volumeSlider.value;
@@ -352,7 +357,9 @@ const countdownInterval = setInterval(() => {
             </div>
         </div>
         <div class="row">
-            <div class="col-md-3 hidden-sm hidden-xs"><img src="img/first_chat.jpg" class="wp1"></div>
+            <div class="col-md-3 hidden-sm hidden-xs"><img src="img/first_chat.jpg" class="wp1" style="margin-top: -20px;">
+                <p style="margin-top: 5px; font-size: 14px; color: #333;">09.10.2018</p>
+            </div>
             <div class="col-md-6">
                 <p>
                     <br>
@@ -396,62 +403,62 @@ const countdownInterval = setInterval(() => {
         </div>
         <div class="row">
             <div class="col-md-2">
-                <a class="fancybox" rel="group" href="img/eng_pics/_RFX2942-lg.jpg">
+                <a class="fancybox" rel="group" href="img/eng_pics/alfonso.jpg">
                     <div class="img-wrap">
                         <div class="overlay">
                             <i class="fa fa-search"></i>
                         </div>
-                        <img src="img/eng_pics/_RFX2942-sm.jpg" alt=""/>
+                        <img src="img/eng_pics/alfonso.jpg" alt=""/>
                     </div>
                 </a>
             </div>
             <div class="col-md-2">
-                <a class="fancybox" rel="group" href="img/eng_pics/IMG_3483-lg.jpg">
+                <a class="fancybox" rel="group" href="img/eng_pics/redang.jpg">
                     <div class="img-wrap">
                         <div class="overlay">
                             <i class="fa fa-search"></i>
                         </div>
-                        <img src="img/eng_pics/IMG_3483-sm.jpg" alt=""/>
+                        <img src="img/eng_pics/redang.jpg" alt=""/>
                     </div>
                 </a>
             </div>
             <div class="col-md-2">
-                <a class="fancybox" rel="group" href="img/eng_pics/_RFX2992-lg.jpg">
+                <a class="fancybox" rel="group" href="img/eng_pics/foto_insieme.jpg">
                     <div class="img-wrap">
                         <div class="overlay">
                             <i class="fa fa-search"></i>
                         </div>
-                        <img src="img/eng_pics/_RFX2992-sm.jpg" alt=""/>
+                        <img src="img/eng_pics/foto_insieme.jpg" alt=""/>
                     </div>
                 </a>
             </div>
             <div class="col-md-2">
-                <a class="fancybox" rel="group" href="img/eng_pics/_RFX3064-lg.jpg">
+                <a class="fancybox" rel="group" href="img/eng_pics/proposta.mp4">
                     <div class="img-wrap">
                         <div class="overlay">
                             <i class="fa fa-search"></i>
                         </div>
-                        <img src="img/eng_pics/_RFX3064-sm.jpg" alt=""/>
+                        <img src="img/eng_pics/proposta.mp4" alt=""/>
                     </div>
                 </a>
             </div>
             <div class="col-md-2">
-                <a class="fancybox" rel="group" href="img/eng_pics/NGP_4089-lg.jpg">
+                <a class="fancybox" rel="group" href="img/eng_pics/cena.jpg">
                     <div class="img-wrap">
                         <div class="overlay">
                             <i class="fa fa-search"></i>
                         </div>
-                        <img src="img/eng_pics/NGP_4089-sm.jpg" alt=""/>
+                        <img src="img/eng_pics/cena.jpg" alt=""/>
                     </div>
                 </a>
             </div>
             <div class="col-md-2">
-                <a class="fancybox" rel="group" href="img/eng_pics/NGP_4119-lg.jpg">
+                <a class="fancybox" rel="group" href="img/eng_pics/emirates_polaroid.jpg">
                     <div class="img-wrap">
                         <div class="overlay">
                             <i class="fa fa-search"></i>
                         </div>
-                        <img src="img/eng_pics/NGP_4119-sm.jpg" alt=""/>
+                        <img src="img/eng_pics/emirates_polaroid.jpg" alt=""/>
                     </div>
                 </a>
             </div>
@@ -797,7 +804,7 @@ const countdownInterval = setInterval(() => {
                         <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">
                                 <i class="fa fa-users"></i>
-                                <input type="number" name="extras" class="extras" min="0" max="4" placeholder=" # Partner e Figli" required>
+                                <input type="number" name="extras" class="extras" min="0" max="4" placeholder=" # Partner" required>
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6">
