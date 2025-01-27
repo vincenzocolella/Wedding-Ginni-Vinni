@@ -73,11 +73,7 @@
 <body id="top">
 
 
-    
-<!--[if lt IE 8]>
-<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
-    your browser</a> to improve your experience.</p>
-<![endif]-->
+
 <section class="hero">
     <section class="navigation">
         <header>
@@ -89,8 +85,8 @@
                             <li><a href="#intro">La nostra storia</a></li>
                             <li><a href="#eng-pics">Proposta</a></li>
                             <li><a href="#events">Programma</a></li>
-                            <li class="hidden-sm hidden-xs"><a href="#video-bg">Cerimonia</a></li>
-                            <li class="hidden-sm hidden-xs"><a href="#map">Ricevimento</a></li>
+                            <li class="hidden-sm hidden-xs"><a href="#chiesa">Cerimonia</a></li>
+                            <li class="hidden-sm hidden-xs"><a href="#ricevimento">Ricevimento</a></li>
                             <li><a href="#instagram">Viaggio di Nozze</a></li>
                             
                             
@@ -375,7 +371,7 @@ const countdownInterval = setInterval(() => {
                     <div class="col-md-12 text-center">
                         <h4 class="header">26 &#x2764;&#xFE0F; 02 &#x2764;&#xFE0F; 2019</h4>
                     </div>
-                </p>
+
             </div>
             <div class="col-md-3 hidden-sm hidden-xs">
                 <!-- Contenitore per immagine e testo -->
@@ -478,10 +474,7 @@ const countdownInterval = setInterval(() => {
         </div>
     </div>-->
 
-                </div>
-            </div>
-        </div>
-    </div>
+
 </section>
 
 <section class="events section-padding" id="events">
@@ -496,7 +489,7 @@ const countdownInterval = setInterval(() => {
                 <div class="wp3">
                     <p class="location-name"><strong>Basilica Santi Giovanni e Paolo</strong></p>
 
-                    <p class="location-address"></p> <strong> Piazza Dei SS. Giovanni e Paolo, 00184 Roma, Italia </strong><span class="time"> 15:30</span></p>
+                    <p class="location-address"></p> <strong> Piazza Dei SS. Giovanni e Paolo, 00184 Roma, Italia </strong><span class="time"> 15:30</span>
                     <p class="location-description">Siamo lieti di invitarvi alla cerimonia religiosa che si terrà presso la Basilica Santi Giovanni e Paolo, il giorno 30 agosto 2025 alle ore 15:30.
                         Vi preghiamo gentilmente di arrivare alle ore 15:00 per consentire l’inizio puntuale della celebrazione. <br>
                         Non vediamo l'ora di condividere con voi questo momento indimenticabile!
@@ -507,7 +500,7 @@ const countdownInterval = setInterval(() => {
                 <div class="wp4">
                     <p class="location-name"><strong> Tenuta di Casal Montani </strong></p>
 
-                    <p class="location-address"></p><strong> Via di Casal Montani, 00132 Roma, Italia </strong><span class="time">18:00</span></p>
+                    <p class="location-address"></p><strong> Via di Casal Montani, 00132 Roma, Italia </strong><span class="time">18:00</span>
                     <p class="location-description">Dopo la cerimonia, vi aspettiamo presso Casal Montani a partire dalle ore 18:00, per continuare i festeggiamenti insieme.
                         Sarà una serata unica, piena di gioia, musica e buon cibo, e ci farà immensamente piacere avervi con noi per celebrare questo nuovo capitolo della nostra vita.
                         Prepariamoci a brindare, mangiare e ballare fino a notte fonda, creando ricordi che resteranno per sempre nel nostro cuore &#x2764;&#xFE0F;
@@ -526,7 +519,7 @@ const countdownInterval = setInterval(() => {
             <div class="col-xs-12 section-border section-padding">
             </div>
         </div>-->
-    </div>
+
 
     <style>
         /* Stile per il contenitore */
@@ -580,60 +573,126 @@ const countdownInterval = setInterval(() => {
         </script>
 
 </section>
+<div class="text-center" id="chiesa"></div>
 <div class="text-center">
     <h3>Cerimonia</h3>
     <p>La Basilica Santi Giovanni e Paolo, conosciuta anche come la chiesa dei lampadari, è situata sul colle Celio a Roma. Vi aspettiamo!
         
         </p>
-<section id="video-bg" class="hidden-sm hidden-xs">
-    <div id="bgndVideo" class="player"
-         data-property="{videoURL:'https://youtu.be/obNHZy2ewhk',containment:'#video-bg',autoPlay:true, mute:true, showControls:false, startAt:34, stopAt:257, opacity:1}">
-    </div>
-    <div id="video-content">
-        <h5>Basilica Santi Giovanni e Paolo</h5>
-        <p>Roma</p>
-    </div>
-</section>
+        <section id="video-bg-basilica" class="hidden-sm hidden-xs">
+            <div id="basilicaVideo" class="player"
+                 data-property="{videoURL:'https://youtu.be/obNHZy2ewhk',containment:'#video-bg-basilica',autoPlay:true, mute:true, showControls:false, startAt:34, stopAt:257, opacity:1}">
+            </div>
+            <div id="video-content-basilica">
+                <h5>Basilica Santi Giovanni e Paolo</h5>
+                <p>Roma</p>
+            </div>
+        </section>
 
-<section id="map" class="section-padding">
+        <section class="events section-padding" id="events">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                    </section>
+        <section>
+            <div id="map-canvas-1"></div>
+            <div id="map-content-wrapper-1" class="container pointer-events-none">
+                <div class="row">
+                    <div class="col-xs-offset-1 col-xs-10 col-md-offset-3 col-md-6">
+                        <div class="text-center">
+                            <div id="btn-show-content-1" class="toggle-map-content-1 pointer-events-auto">
+                                <i class="fa fa-info-circle"></i>&nbsp;&nbsp; Show info
+                            </div>
+                        </div>
+                        <div id="map-content-1" class="pointer-events-auto">
+                            
+                                <div class="col-md-6" style="padding: 5px; text-align: center;">
+                                    <h5>Basilica di qualcosa</h5>
+                                    <p>Via della Basilica, 00132 Roma RM, Italia</p>
+                                </div>
+                                
+                            
+                                <div class="row text-center">
+                                    <div class="col-md-6" style="padding: 5px;">
+                                        <a class="btn btn-fill btn-small" id="btn-get-directions" 
+                                           href="https://www.google.com/maps/dir/?api=1&destination=Via+di+Casal+Montani,+00132+Roma+RM,+Italia" 
+                                           target="_blank">
+                                            <i class="fa fa-map-marker-2"></i>&nbsp;&nbsp;Ottieni Indicazioni
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6" style="padding: 5px;">
+                                    <a class="btn btn-accent btn-small" id="btn-show-map">
+                                        <i class="fa fa-map-marker-2"></i>&nbsp;&nbsp;Mostra sulla Mappa</a>
+                                    </div>     
+                                    </div>
+                                </div>
+        </div>
+        </section>
+
+        <section class="events section-padding" id="events">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                    </section>
+    
+    
+
+    <div class="text-center" id="ricevimento"></div>
     <div class="text-center">
         <h3>Ricevimento</h3>
         <p>La tenuta Casal Montani si trova nel cuore dei Castelli Romani. Seguite qui le indicazioni per arrivare e godervi la festa!
-            
             </p>
     </div>
-    <div id="map-canvas"></div>
-    <div id="map-content-wrapper" class="container pointer-events-none">
+
+
+<section id="video-bg-casale" class="hidden-sm hidden-xs">
+    <div id="casaleVideo" class="player"
+         data-property="{videoURL:'https://www.youtube.com/watch?v=BgqxLwEI39E',containment:'#video-bg-casale',autoPlay:true, mute:true, showControls:false, startAt:37, stopAt:50, opacity:1}">
+    </div>
+    <div id="video-content-casale">
+        <h5>Casal Montani</h5>
+        <p>Roma</p>
+    </div>
+
+<section class="events section-padding" id="events">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+            </section>
+<section>
+    <div id="map-canvas-2"></div>
+    <div id="map-content-wrapper-2" class="container pointer-events-none">
         <div class="row">
             <div class="col-xs-offset-1 col-xs-10 col-md-offset-3 col-md-6">
                 <div class="text-center">
-                    <div id="btn-show-content" class="toggle-map-content pointer-events-auto">
+                    <div id="btn-show-content-2" class="toggle-map-content-2 pointer-events-auto">
                         <i class="fa fa-info-circle"></i>&nbsp;&nbsp; Show info
                     </div>
                 </div>
-                <div id="map-content" class="pointer-events-auto">
-                    <div class="row">
-                        <div class="col-md-6">
+                <div id="map-content-2" class="pointer-events-auto">
+                    
+                        <div class="col-md-6" style="padding: 5px; text-align: center;">
                             <h5>Casal Montani</h5>
                             <p>Via di Casal Montani, 00132 Roma RM, Italia</p>
                         </div>
-                        <div class="col-md-6">
-                            <h5>Ginevra e Vincenzo</h5>
-                            <p><i class="fa fa-mobile"></i> <a href="tel://+393473145983">+39 3473145983</a><br>
-                                <i class="fa fa-mobile"></i> <a href="tel://+393451045491">+39 3451045491</a></p>
+                        
+                    
+                        <div class="row text-center">
+                            <div class="col-md-6" style="padding: 5px;">
+                                <a class="btn btn-fill btn-small" id="btn-get-directions" 
+                                   href="https://www.google.com/maps/dir/?api=1&destination=Via+di+Casal+Montani,+00132+Roma+RM,+Italia" 
+                                   target="_blank">
+                                    <i class="fa fa-map-marker"></i>&nbsp;&nbsp;Ottieni Indicazioni
+                                </a>
+                            </div>
+                            <div class="col-md-6" style="padding: 5px;">
+                            <a class="btn btn-accent btn-small" id="btn-show-map">
+                                <i class="fa fa-map-marker"></i>&nbsp;&nbsp;Mostra sulla Mappa</a>
+                            </div>     
+                            </div>
                         </div>
-                    </div>
-                    <div class="row text-center">
-                        <div class="col-md-6" style="padding: 5px;">
-                            <a class="btn btn-fill btn-small" id="btn-get-directions">
-                                <i class="fa fa-map-marker"></i>&nbsp;&nbsp;Ottieni Indicazioni
-                            </a>
-                        </div>
-                        <div class="col-md-6" style="padding: 5px;">
-                            <a class="btn btn-accent btn-small" id="btn-show-map"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;Mostra sulla Mappa</a>
-                        </div>
-                    </div>
-
+</div>
+</section>
 <!--    <div id="dc-modal" class="modal fade" tabindex="-1" role="dialog">
     
         <div class="modal-dialog" role="document">
@@ -677,7 +736,7 @@ const countdownInterval = setInterval(() => {
                 </div>
 
 -->
-</section>
+
 
 <section id="instagram" class="section-padding">
     <div class="container">
@@ -884,6 +943,12 @@ const countdownInterval = setInterval(() => {
     
     
 </section>
+
+<div class="col-md-6">
+    <h5>Ginevra e Vincenzo</h5>
+    <p><i class="fa fa-mobile"></i> <a href="tel://+393473145983">+39 3473145983</a><br>
+        <i class="fa fa-mobile"></i> <a href="tel://+393451045491">+39 3451045491</a></p>
+</div>
 
 <footer>
     <div class="container">
