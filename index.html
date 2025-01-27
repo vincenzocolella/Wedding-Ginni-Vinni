@@ -7,9 +7,10 @@
 <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!-->
 <html class="no-js" lang="en"> <!--<![endif]-->
+
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Ginni e Vinni si sposano !</title>
     <meta name="description" content="Vorremmo invitarvi a festeggiare questo giorno speciale">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -59,109 +60,111 @@
     <link rel="stylesheet" href="css/styles.min.css">
     <link rel="stylesheet" href="css/queries.css">
     <link rel="stylesheet" href="node_modules/animate.css/animate.min.css" onerror="loadCssFromCDN('animate.css')">
-    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" onerror="loadCssFromCDN('font-awesome.css')">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css"
+        onerror="loadCssFromCDN('font-awesome.css')">
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-    <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-</script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
     <script>
         (function () {
             emailjs.init("7TZkxTJnOy_vdc8Sk"); // Sostituisci con la tua Public Key di EmailJS
         })();
     </script>
 </head>
+
 <body id="top">
 
 
 
-<section class="hero">
-    <section class="navigation">
-        <header>
-            <div class="header-content">
-                <div class="logo"><a href="#"><img src="img/logo.png" alt="Logo" ></a></div>
-                <div class="header-nav">
-                    <nav>
-                        <ul class="primary-nav">
-                            <li><a href="#intro">La nostra storia</a></li>
-                            <li><a href="#eng-pics">Proposta</a></li>
-                            <li><a href="#events">Programma</a></li>
-                            <li class="hidden-sm hidden-xs"><a href="#chiesa">Cerimonia</a></li>
-                            <li class="hidden-sm hidden-xs"><a href="#ricevimento">Ricevimento</a></li>
-                            <li><a href="#instagram">Viaggio di Nozze</a></li>
-                            
-                            
-                        </ul>
-                        <ul class="member-actions">
-                            <li><a href="#contatti" class="login">Contatti</a></li>
+    <section class="hero">
+        <section class="navigation">
+            <header>
+                <div class="header-content">
+                    <div class="logo"><a href="#"><img src="img/logo.png" alt="Logo"></a></div>
+                    <div class="header-nav">
+                        <nav>
+                            <ul class="primary-nav">
+                                <li><a href="#intro">La nostra storia</a></li>
+                                <li><a href="#eng-pics">Proposta</a></li>
+                                <li><a href="#events">Programma</a></li>
+                                <li class="hidden-sm hidden-xs"><a href="#chiesa">Cerimonia</a></li>
+                                <li class="hidden-sm hidden-xs"><a href="#ricevimento">Ricevimento</a></li>
+                                <li><a href="#instagram">Viaggio di Nozze</a></li>
 
-                            
-                            <li><a href="#rsvp" class="btn-white btn-small">RSVP</a></li>
-                        </ul>
-                    </nav>
+
+                            </ul>
+                            <ul class="member-actions">
+                                <li><a href="#contatti" class="login">Contatti</a></li>
+
+
+                                <li><a href="#rsvp" class="btn-white btn-small">RSVP</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="navicon">
+                        <a class="nav-toggle" href="#"><span></span></a>
+                    </div>
                 </div>
-                <div class="navicon">
-                    <a class="nav-toggle" href="#"><span></span></a>
+            </header>
+        </section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="hero-content text-center" style="margin-top: -410px;">
+                        <!--<h1>Ram and Antara</h1>-->
+                        <img src="img/logo-lg.png">
+                        <!--<p class="intro">Ram & Antara are getting hitched!</p>-->
+                        <!--<a href="#" class="btn btn-fill btn-large btn-margin-right">Scroll Down</a> -->
+                    </div>
                 </div>
             </div>
-        </header>
+            <div class="row">
+                <div class="col-sm-4 hidden-xs"></div>
+                <div class="col-sm-4 hidden-xs text-center">
+                    <a href="#rsvp" class="btn btn-accent btn-large rsvp-btn" style="margin-top: -170px;">RSVP</a>
+                </div>
+                <div class="col-sm-4 hidden-xs"></div>
+            </div>
+
+        </div>
+        <div class="down-arrow floating-arrow"><a href="#invitation"><i class="fa fa-angle-down"></i></a></div>
     </section>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-10 col-md-offset-1">
-                <div class="hero-content text-center" style="margin-top: -410px;">
-                    <!--<h1>Ram and Antara</h1>-->
-                    <img src="img/logo-lg.png">
-                    <!--<p class="intro">Ram & Antara are getting hitched!</p>-->
-                    <!--<a href="#" class="btn btn-fill btn-large btn-margin-right">Scroll Down</a> -->
+    <section id="invitation" class="section-padding">
+        <div class="container">
+            <div class="text-center">
+                <h3>Ci sposiamo!</h3>
+                <p>Vi aspettiamo sabato 30 agosto 2025 per festeggiare insieme questo giorno speciale!</p>
+                <!-- Countdown in una riga orizzontale -->
+                <div id="countdown" class="d-flex justify-content-center align-items-center mt-4">
+                    <div class="countdown-item mx-3 text-center">
+                        <h4 id="days">0</h4>
+                        <p>Giorni</p>
+                    </div>
+                    <div class="countdown-item mx-3 text-center">
+                        <h4 id="hours">0</h4>
+                        <p>Ore</p>
+                    </div>
+                    <div class="countdown-item mx-3 text-center">
+                        <h4 id="minutes">0</h4>
+                        <p>Minuti</p>
+                    </div>
+                    <div class="countdown-item mx-3 text-center">
+                        <h4 id="seconds">0</h4>
+                        <p>Secondi</p>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-sm-4 hidden-xs"></div>
-            <div class="col-sm-4 hidden-xs text-center">
-                <a href="#rsvp" class="btn btn-accent btn-large rsvp-btn" style="margin-top: -170px;">RSVP</a>
-            </div>
-            <div class="col-sm-4 hidden-xs"></div>
-        </div>
-        
-    </div>
-    <div class="down-arrow floating-arrow"><a href="#invitation"><i class="fa fa-angle-down"></i></a></div>
-</section>
-<section id="invitation" class="section-padding">
-    <div class="container">
-        <div class="text-center">
-            <h3>Ci sposiamo!</h3>
-            <p>Vi aspettiamo sabato 30 agosto 2025 per festeggiare insieme questo giorno speciale!</p>
-            <!-- Countdown in una riga orizzontale -->
-            <div id="countdown" class="d-flex justify-content-center align-items-center mt-4">
-                <div class="countdown-item mx-3 text-center">
-                    <h4 id="days">0</h4>
-                    <p>Giorni</p>
-                </div>
-                <div class="countdown-item mx-3 text-center">
-                    <h4 id="hours">0</h4>
-                    <p>Ore</p>
-                </div>
-                <div class="countdown-item mx-3 text-center">
-                    <h4 id="minutes">0</h4>
-                    <p>Minuti</p>
-                </div>
-                <div class="countdown-item mx-3 text-center">
-                    <h4 id="seconds">0</h4>
-                    <p>Secondi</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<style>
-
-
-    /* Contenitore del lettore */
-    .player-container {
-            position: fixed; /* Rimane fisso sullo schermo */
-            bottom: 20px; /* Distanza dal fondo */
-            right: 20px; /* Distanza dal lato destro */
+    </section>
+    <style>
+        /* Contenitore del lettore */
+        .player-container {
+            position: fixed;
+            /* Rimane fisso sullo schermo */
+            bottom: 20px;
+            /* Distanza dal fondo */
+            right: 20px;
+            /* Distanza dal lato destro */
             background-color: #e3c969;
             border-radius: 50px;
             padding: 15px 20px;
@@ -169,303 +172,317 @@
             align-items: center;
             gap: 15px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-            max-width: 400px; /* Dimensione massima */
-            width: auto; /* Adatta al contenuto */
-            z-index: 1000; /* Assicurati che sia sopra altri elementi */
+            max-width: 400px;
+            /* Dimensione massima */
+            width: auto;
+            /* Adatta al contenuto */
+            z-index: 1000;
+            /* Assicurati che sia sopra altri elementi */
         }
 
 
-    .play-pause-btn {
-        background-color: #ffffff;
-        border: none;
-        border-radius: 50%;
-        width: 50px;
-        height: 50px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        cursor: pointer;
-        transition: transform 0.2s;
-    }
-
-    .play-pause-btn:hover {
-        transform: scale(1.1);
-    }
-
-    .play-pause-btn svg {
-        width: 20px;
-        height: 20px;
-        fill: #1db954;
-    }
-
-    .track-info {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        flex-grow: 1;
-    }
-
-    .track-info span {
-        font-size: 12px;
-    }
-
-    .track-info .track-title {
-        font-weight: bold;
-        font-size: 14px;
-    }
-
-    .volume-control {
-        display: flex;
-        align-items: center;
-        gap: 5px;
-    }
-
-    .volume-control input[type="range"] {
-        width: 100px;
-        cursor: pointer;
-    }
-</style>
-
-
-<div class="player-container">
-    <!-- Play/Pause Button -->
-    <button class="play-pause-btn" onclick="toggleAudio()">
-        <svg id="play-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-            <path d="M8 5v14l11-7z"></path>
-        </svg>
-        <svg id="pause-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="display: none;">
-            <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"></path>
-        </svg>
-    </button>
-
-    <!-- Track Info -->
-    <div class="track-info">
-        <span class="track-title">Until I Found You</span>
-        <span class="track-artist">Stephen Sanchez 
-</span>
-    </div>
-
-    <!-- Volume Control -->
-    <div class="volume-control">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="20px" height="20px">
-            <path d="M7 9v6h4l5 5V4l-5 5H7z"></path>
-        </svg>
-        <input type="range" id="volume-slider" min="0" max="1" step="0.01">
-    </div>
-</div>
-
-<audio id="background-audio" loop>
-    <source src="img/i_found_you_2.mp3" type="audio/mpeg">
-    Il tuo browser non supporta l'elemento audio.
-</audio>
-
-<script>
-    const audio = document.getElementById('background-audio');
-    const playIcon = document.getElementById('play-icon');
-    const pauseIcon = document.getElementById('pause-icon');
-    const volumeSlider = document.getElementById('volume-slider');
-
-    // Imposta il volume iniziale al 10% (molto basso)
-    audio.volume = 0.03;
-    volumeSlider.value = audio.volume; // Sincronizza lo slider
-
-    // Sincronizza lo slider del volume con l'audio
-    volumeSlider.addEventListener('input', () => {
-        audio.volume = volumeSlider.value;
-    });
-
-    function toggleAudio() {
-        if (audio.paused) {
-            audio.play();
-            playIcon.style.display = 'none';
-            pauseIcon.style.display = 'inline';
-        } else {
-            audio.pause();
-            playIcon.style.display = 'inline';
-            pauseIcon.style.display = 'none';
+        .play-pause-btn {
+            background-color: #ffffff;
+            border: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: transform 0.2s;
         }
-    }
-</script>
 
-<style>
-    /* CSS per countdown in orizzontale su una riga */
-    #countdown {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        gap: 5px; /* Distanza tra gli elementi */
-        width: 50%; /* Assicura che ci sia abbastanza spazio */
-        margin: 0 auto; /* Centro il contenitore */
-    }
-    .countdown-item {
-        flex: 1;
-        margin: 0;
-        text-align: center;
-    }
-    .countdown-item h4 {
-        font-size: 2rem;
-        color: #333;
-    }
-    .countdown-item p {
-        margin: 0;
-        font-size: 1rem;
-        color: #666;
-    }
-</style>
+        .play-pause-btn:hover {
+            transform: scale(1.1);
+        }
 
+        .play-pause-btn svg {
+            width: 20px;
+            height: 20px;
+            fill: #1db954;
+        }
 
+        .track-info {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            flex-grow: 1;
+        }
 
-<script>
-// Imposta la data di destinazione
-const weddingDate = new Date("August 30, 2025 15:30:00").getTime();
+        .track-info span {
+            font-size: 12px;
+        }
 
-// Aggiorna il countdown ogni secondo
-const countdownInterval = setInterval(() => {
-    const now = new Date().getTime();
-    const timeRemaining = weddingDate - now;
+        .track-info .track-title {
+            font-weight: bold;
+            font-size: 14px;
+        }
 
-    // Calcola giorni, ore, minuti e secondi
-    const days = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));
-    const hours = Math.floor((timeRemaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    const minutes = Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60));
-    const seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
+        .volume-control {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
 
-    // Aggiorna gli elementi HTML
-    document.getElementById("days").textContent = days;
-    document.getElementById("hours").textContent = hours;
-    document.getElementById("minutes").textContent = minutes;
-    document.getElementById("seconds").textContent = seconds;
-
-    // Se la data è raggiunta, ferma il countdown
-    if (timeRemaining < 0) {
-        clearInterval(countdownInterval);
-        document.getElementById("countdown").innerHTML = "<p>L'evento è iniziato!</p>";
-    }
-}, 1000);
-</script>
+        .volume-control input[type="range"] {
+            width: 100px;
+            cursor: pointer;
+        }
+    </style>
 
 
-<section id="intro">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-13 text-center">
-                <h3 class="header">La nostra storia</h3>
-            </div>
+    <div class="player-container">
+        <!-- Play/Pause Button -->
+        <button class="play-pause-btn" onclick="toggleAudio()">
+            <svg id="play-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M8 5v14l11-7z"></path>
+            </svg>
+            <svg id="pause-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="display: none;">
+                <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"></path>
+            </svg>
+        </button>
+
+        <!-- Track Info -->
+        <div class="track-info">
+            <span class="track-title">Until I Found You</span>
+            <span class="track-artist">Stephen Sanchez
+            </span>
         </div>
-        <div class="row">
-            <div class="col-md-3 hidden-sm hidden-xs"><img src="img/first_chat.jpg" class="wp1" style="margin-top: -20px;">
-                <p style="margin-top: 5px; font-size: 14px; color: #333;">09.10.2018</p>
+
+        <!-- Volume Control -->
+        <div class="volume-control">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="20px" height="20px">
+                <path d="M7 9v6h4l5 5V4l-5 5H7z"></path>
+            </svg>
+            <input type="range" id="volume-slider" min="0" max="1" step="0.01">
+        </div>
+    </div>
+
+    <audio id="background-audio" loop>
+        <source src="img/i_found_you_2.mp3" type="audio/mpeg">
+        Il tuo browser non supporta l'elemento audio.
+    </audio>
+
+    <script>
+        const audio = document.getElementById('background-audio');
+        const playIcon = document.getElementById('play-icon');
+        const pauseIcon = document.getElementById('pause-icon');
+        const volumeSlider = document.getElementById('volume-slider');
+
+        // Imposta il volume iniziale al 10% (molto basso)
+        audio.volume = 0.03;
+        volumeSlider.value = audio.volume; // Sincronizza lo slider
+
+        // Sincronizza lo slider del volume con l'audio
+        volumeSlider.addEventListener('input', () => {
+            audio.volume = volumeSlider.value;
+        });
+
+        function toggleAudio() {
+            if (audio.paused) {
+                audio.play();
+                playIcon.style.display = 'none';
+                pauseIcon.style.display = 'inline';
+            } else {
+                audio.pause();
+                playIcon.style.display = 'inline';
+                pauseIcon.style.display = 'none';
+            }
+        }
+    </script>
+
+    <style>
+        /* CSS per countdown in orizzontale su una riga */
+        #countdown {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            gap: 5px;
+            /* Distanza tra gli elementi */
+            width: 50%;
+            /* Assicura che ci sia abbastanza spazio */
+            margin: 0 auto;
+            /* Centro il contenitore */
+        }
+
+        .countdown-item {
+            flex: 1;
+            margin: 0;
+            text-align: center;
+        }
+
+        .countdown-item h4 {
+            font-size: 2rem;
+            color: #333;
+        }
+
+        .countdown-item p {
+            margin: 0;
+            font-size: 1rem;
+            color: #666;
+        }
+    </style>
+
+
+
+    <script>
+        // Imposta la data di destinazione
+        const weddingDate = new Date("August 30, 2025 15:30:00").getTime();
+
+        // Aggiorna il countdown ogni secondo
+        const countdownInterval = setInterval(() => {
+            const now = new Date().getTime();
+            const timeRemaining = weddingDate - now;
+
+            // Calcola giorni, ore, minuti e secondi
+            const days = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((timeRemaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
+
+            // Aggiorna gli elementi HTML
+            document.getElementById("days").textContent = days;
+            document.getElementById("hours").textContent = hours;
+            document.getElementById("minutes").textContent = minutes;
+            document.getElementById("seconds").textContent = seconds;
+
+            // Se la data è raggiunta, ferma il countdown
+            if (timeRemaining < 0) {
+                clearInterval(countdownInterval);
+                document.getElementById("countdown").innerHTML = "<p>L'evento è iniziato!</p>";
+            }
+        }, 1000);
+    </script>
+
+
+    <section id="intro">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-13 text-center">
+                    <h3 class="header">La nostra storia</h3>
+                </div>
             </div>
-            <div class="col-md-6">
-                <p>
-                    <br>
-                    <br>
-                    Ginni e Vinni si scrivono per la prima volta mentre lui era in ERASMUS a Praga,
-                    e stava comprando una pizza congelata con l'ananas al supermercato. Grazie alla pizza
-                    con l'ananas, iniziano a parlare giorno e notte fino a quando Vinni prende 
-                    coraggio e la invita per il primo vero appuntamento: mangiare una (discutibile) 
-                    pizza con l'ananas a Piazza Navona. Vinni era già cotto di Ginni come un ananas 
-                    sulla pizza, e continua a portarla a fare le sue attività preferite. 
-                    Tramonti al mare, passeggiate nella campagna romana, giri in skate a Villa Borghese. 
-                    Vinni e Ginni si uniscono e non si separano più dal giorno
+            <div class="row">
+                <div class="col-md-3 hidden-sm hidden-xs"><img src="img/first_chat.jpg" class="wp1"
+                        style="margin-top: -20px;">
+                    <p style="margin-top: 5px; font-size: 14px; color: #333;">09.10.2018</p>
+                </div>
+                <div class="col-md-6">
+                    <p>
+                        <br>
+                        <br>
+                        Ginni e Vinni si scrivono per la prima volta mentre lui era in ERASMUS a Praga,
+                        e stava comprando una pizza congelata con l'ananas al supermercato. Grazie alla pizza
+                        con l'ananas, iniziano a parlare giorno e notte fino a quando Vinni prende
+                        coraggio e la invita per il primo vero appuntamento: mangiare una (discutibile)
+                        pizza con l'ananas a Piazza Navona. Vinni era già cotto di Ginni come un ananas
+                        sulla pizza, e continua a portarla a fare le sue attività preferite.
+                        Tramonti al mare, passeggiate nella campagna romana, giri in skate a Villa Borghese.
+                        Vinni e Ginni si uniscono e non si separano più dal giorno
                     <div class="col-md-12 text-center">
                         <h4 class="header">26 &#x2764;&#xFE0F; 02 &#x2764;&#xFE0F; 2019</h4>
                     </div>
 
+                </div>
+                <div class="col-md-3 hidden-sm hidden-xs">
+                    <!-- Contenitore per immagine e testo -->
+                    <div style="text-align: center;">
+                        <img src="img/pizza_ananas.jpg" class="wp2" style="height: 450px;">
+                        <!-- Ridimensiona l'altezza -->
+                        <p style="margin-top: 5px; font-size: 14px; color: #333;">26.02.2019</p>
+                        <!-- Aggiungi la data -->
+                    </div>
+                </div>
+
             </div>
-            <div class="col-md-3 hidden-sm hidden-xs">
-                <!-- Contenitore per immagine e testo -->
-                <div style="text-align: center;">
-                    <img src="img/pizza_ananas.jpg" class="wp2" style="height: 450px;"> <!-- Ridimensiona l'altezza -->
-                    <p style="margin-top: 5px; font-size: 14px; color: #333;">26.02.2019</p> <!-- Aggiungi la data -->
+            <div class="row">
+                <div class="col-sm-4 col-sm-push-2 col-xs-6 hidden-md hidden-lg"><img src="img/IMG_2317.jpg"
+                        class="wp8"></div>
+                <div class="col-sm-4 col-sm-push-2 col-xs-6 hidden-md hidden-lg"><img src="img/DSD_0214.jpg"
+                        class="wp9"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="eng-pics" class="section-padding">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h3 class="header">Engagement Pics</h3>
                 </div>
             </div>
-            
-        </div>
-        <div class="row">
-            <div class="col-sm-4 col-sm-push-2 col-xs-6 hidden-md hidden-lg"><img src="img/IMG_2317.jpg" class="wp8"></div>
-            <div class="col-sm-4 col-sm-push-2 col-xs-6 hidden-md hidden-lg"><img src="img/DSD_0214.jpg" class="wp9"></div>
-        </div>
-    </div>
-</section>
-
-
-<section id="eng-pics" class="section-padding">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <h3 class="header">Engagement Pics</h3>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-2">
-                <a class="fancybox" rel="group" href="img/eng_pics/alfonso.jpg">
-                    <div class="img-wrap">
-                        <div class="overlay">
-                            <i class="fa fa-search"></i>
+            <div class="row">
+                <div class="col-md-2">
+                    <a class="fancybox" rel="group" href="img/eng_pics/alfonso.jpg">
+                        <div class="img-wrap">
+                            <div class="overlay">
+                                <i class="fa fa-search"></i>
+                            </div>
+                            <img src="img/eng_pics/alfonso.jpg" alt="" />
                         </div>
-                        <img src="img/eng_pics/alfonso.jpg" alt=""/>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-2">
-                <a class="fancybox" rel="group" href="img/eng_pics/redang.jpg">
-                    <div class="img-wrap">
-                        <div class="overlay">
-                            <i class="fa fa-search"></i>
+                    </a>
+                </div>
+                <div class="col-md-2">
+                    <a class="fancybox" rel="group" href="img/eng_pics/redang.jpg">
+                        <div class="img-wrap">
+                            <div class="overlay">
+                                <i class="fa fa-search"></i>
+                            </div>
+                            <img src="img/eng_pics/redang.jpg" alt="" />
                         </div>
-                        <img src="img/eng_pics/redang.jpg" alt=""/>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-2">
-                <a class="fancybox" rel="group" href="img/eng_pics/foto_insieme.jpg">
-                    <div class="img-wrap">
-                        <div class="overlay">
-                            <i class="fa fa-search"></i>
+                    </a>
+                </div>
+                <div class="col-md-2">
+                    <a class="fancybox" rel="group" href="img/eng_pics/foto_insieme.jpg">
+                        <div class="img-wrap">
+                            <div class="overlay">
+                                <i class="fa fa-search"></i>
+                            </div>
+                            <img src="img/eng_pics/foto_insieme.jpg" alt="" />
                         </div>
-                        <img src="img/eng_pics/foto_insieme.jpg" alt=""/>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-2">
-                <a class="fancybox" rel="group" href="img/eng_pics/proposta.mp4">
-                    <div class="img-wrap">
-                        <div class="overlay">
-                            <i class="fa fa-search"></i>
+                    </a>
+                </div>
+                <div class="col-md-2">
+                    <a class="fancybox" rel="group" href="img/eng_pics/proposta.mp4">
+                        <div class="img-wrap">
+                            <div class="overlay">
+                                <i class="fa fa-search"></i>
+                            </div>
+                            <img src="img/eng_pics/proposta.mp4" alt="" />
                         </div>
-                        <img src="img/eng_pics/proposta.mp4" alt=""/>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-2">
-                <a class="fancybox" rel="group" href="img/eng_pics/cena.jpg">
-                    <div class="img-wrap">
-                        <div class="overlay">
-                            <i class="fa fa-search"></i>
+                    </a>
+                </div>
+                <div class="col-md-2">
+                    <a class="fancybox" rel="group" href="img/eng_pics/cena.jpg">
+                        <div class="img-wrap">
+                            <div class="overlay">
+                                <i class="fa fa-search"></i>
+                            </div>
+                            <img src="img/eng_pics/cena.jpg" alt="" />
                         </div>
-                        <img src="img/eng_pics/cena.jpg" alt=""/>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-2">
-                <a class="fancybox" rel="group" href="img/eng_pics/emirates_polaroid.jpg">
-                    <div class="img-wrap">
-                        <div class="overlay">
-                            <i class="fa fa-search"></i>
+                    </a>
+                </div>
+                <div class="col-md-2">
+                    <a class="fancybox" rel="group" href="img/eng_pics/emirates_polaroid.jpg">
+                        <div class="img-wrap">
+                            <div class="overlay">
+                                <i class="fa fa-search"></i>
+                            </div>
+                            <img src="img/eng_pics/emirates_polaroid.jpg" alt="" />
                         </div>
-                        <img src="img/eng_pics/emirates_polaroid.jpg" alt=""/>
-                    </div>
-                </a>
+                    </a>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="container">
-        <div class="row hidden-lg hidden-md hidden-xs">
-            <div class="col-xs-12 section-border section-padding"></div>
+        <div class="container">
+            <div class="row hidden-lg hidden-md hidden-xs">
+                <div class="col-xs-12 section-border section-padding"></div>
+            </div>
         </div>
-    </div>
-    <!--<div class="row">
+        <!--<div class="row">
         <div class="col-md-12">
             <div class="diamond floating-logo">
                 <img src="img/sketch-logo.png" alt="Sketch Logo">
@@ -475,35 +492,42 @@ const countdownInterval = setInterval(() => {
     </div>-->
 
 
-</section>
+    </section>
 
-<section class="events section-padding" id="events">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h3 class="header">Programma</h3>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6 col-sm-12 col-xs-12 leftcol">
-                <div class="wp3">
-                    <p class="location-name"><strong>Basilica Santi Giovanni e Paolo</strong></p>
-
-                    <p class="location-address"></p> <strong> Piazza Dei SS. Giovanni e Paolo, 00184 Roma, Italia </strong><span class="time"> 15:30</span>
-                    <p class="location-description">Siamo lieti di invitarvi alla cerimonia religiosa che si terrà presso la Basilica Santi Giovanni e Paolo, il giorno 30 agosto 2025 alle ore 15:30.
-                        Vi preghiamo gentilmente di arrivare alle ore 15:00 per consentire l’inizio puntuale della celebrazione. <br>
-                        Non vediamo l'ora di condividere con voi questo momento indimenticabile!
-                    
+    <section class="events section-padding" id="events">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="header">Programma</h3>
                 </div>
             </div>
-            <div class="col-md-6 col-sm-12 col-xs-12 rightcol">
-                <div class="wp4">
-                    <p class="location-name"><strong> Tenuta di Casal Montani </strong></p>
+            <div class="row">
+                <div class="col-md-6 col-sm-12 col-xs-12 leftcol">
+                    <div class="wp3">
+                        <p class="location-name"><strong>Basilica Santi Giovanni e Paolo</strong></p>
+                        <p class="location-address"></p> <strong> Piazza Dei SS. Giovanni e Paolo, 00184 Roma, Italia
+                        </strong><span class="time"> 15:30</span>
+                        <br><br>
+                        <p class="location-description">Siamo lieti di invitarvi alla cerimonia religiosa che si terrà
+                            presso la Basilica Santi Giovanni e Paolo, il giorno 30 agosto 2025 alle ore 15:30.
+                            Vi preghiamo gentilmente di arrivare alle ore 15:00 per consentire l’inizio puntuale della
+                            celebrazione. <br>
+                            Non vediamo l'ora di condividere con voi questo momento indimenticabile!
 
-                    <p class="location-address"></p><strong> Via di Casal Montani, 00132 Roma, Italia </strong><span class="time">18:00</span>
-                    <p class="location-description">Dopo la cerimonia, vi aspettiamo presso Casal Montani a partire dalle ore 18:00, per continuare i festeggiamenti insieme.
-                        Sarà una serata unica, piena di gioia, musica e buon cibo, e ci farà immensamente piacere avervi con noi per celebrare questo nuovo capitolo della nostra vita.
-                        Prepariamoci a brindare, mangiare e ballare fino a notte fonda, creando ricordi che resteranno per sempre nel nostro cuore &#x2764;&#xFE0F;
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 col-xs-12 rightcol">
+                    <div class="wp4">
+                        <p class="location-name"><strong> Tenuta di Casal Montani </strong></p>
+                        <p class="location-address"></p><strong> Via di Casal Montani, 00132 Roma, Italia </strong><span
+                            class="time">18:00</span>
+                        <br><br>
+                        <p class="location-description">Dopo la cerimonia, vi aspettiamo presso Casal Montani a partire
+                            dalle ore 18:00, per continuare i festeggiamenti insieme.
+                            Sarà una serata unica, piena di gioia, musica e buon cibo, e ci farà immensamente piacere
+                            avervi con noi per celebrare questo nuovo capitolo della nostra vita.
+                            Prepariamoci a brindare, mangiare e ballare fino a notte fonda, creando ricordi che
+                            resteranno per sempre nel nostro cuore &#x2764;&#xFE0F;
                     </div>
                 </div>
             </div>
@@ -521,179 +545,186 @@ const countdownInterval = setInterval(() => {
         </div>-->
 
 
-    <style>
-        /* Stile per il contenitore */
-        .header {
-            text-align: center;
-        }
-        .time {
-            color:#666;
+        <style>
+            /* Stile per il contenitore */
+            .header {
+                text-align: center;
+            }
+
+            .time {
+                color: #666;
 
 
-        }
-    
-        /* Stile per il nome della location */
-        .location-name {
-            font-size: 2.2rem;
-            /*color: #333; */
-            text-align: left;
-            margin-bottom: -10px; /* Distanza sotto il nome */
-        }
-    
-        /* Stile per l'indirizzo */
-        .location-address {
-            font-size: 1.1rem;
-            color: #666;
-            text-align: center;
-            margin-bottom: 0px; /* Distanza sotto l'indirizzo */
-        }
-    
-        /* Stile per il paragrafo di descrizione */
-        .location-description {
-            text-align: justify;
-            margin-top: -15px; /* Distanza sopra la descrizione */
-        }
-    
-        /* Stile per l'ora */
-        .time {
-            font-weight: bold;
-            color: #e74c3c;
-            margin-left: 10px; /* Distanza a sinistra dell'ora */
-        }
-    </style>
+            }
 
-    <script>
-        function downloadICS() {
-            // Scarica il file .ics
-            const link = document.createElement("a");
-            link.href = "evento.ics"; // Sostituisci con il percorso effettivo al file .ics
-            link.download = "Matrimonio.ics";
-            link.click();
-        }
+            /* Stile per il nome della location */
+            .location-name {
+                font-size: 2.2rem;
+                /*color: #333; */
+                text-align: left;
+                margin-bottom: -10px;
+                /* Distanza sotto il nome */
+            }
+
+            /* Stile per l'indirizzo */
+            .location-address {
+                font-size: 1.1rem;
+                color: #666;
+                text-align: center;
+                margin-bottom: 0px;
+                /* Distanza sotto l'indirizzo */
+            }
+
+            /* Stile per il paragrafo di descrizione */
+            .location-description {
+                text-align: justify;
+                margin-top: -15px;
+                /* Distanza sopra la descrizione */
+            }
+
+            /* Stile per l'ora */
+            .time {
+                font-weight: bold;
+                color: #e74c3c;
+                margin-left: 10px;
+                /* Distanza a sinistra dell'ora */
+            }
+        </style>
+
+        <script>
+            function downloadICS() {
+                // Scarica il file .ics
+                const link = document.createElement("a");
+                link.href = "evento.ics"; // Sostituisci con il percorso effettivo al file .ics
+                link.download = "Matrimonio.ics";
+                link.click();
+            }
         </script>
 
-</section>
-<div class="text-center" id="chiesa"></div>
-<div class="text-center">
-    <h3>Cerimonia</h3>
-    <p>La Basilica Santi Giovanni e Paolo, conosciuta anche come la chiesa dei lampadari, è situata sul colle Celio a Roma. Vi aspettiamo!
-        
+    </section>
+    <div class="text-center" id="chiesa"></div>
+    <div class="text-center">
+        <h3>Cerimonia</h3>
+        <p>La Basilica Santi Giovanni e Paolo, conosciuta anche come la chiesa dei lampadari, è situata sul colle Celio
+            a Roma. Vi aspettiamo!
+
         </p>
         <section id="video-bg-basilica" class="hidden-sm hidden-xs">
             <div id="basilicaVideo" class="player"
-                 data-property="{videoURL:'https://youtu.be/obNHZy2ewhk',containment:'#video-bg-basilica',autoPlay:true, mute:true, showControls:false, startAt:34, stopAt:257, opacity:1}">
+                data-property="{videoURL:'https://youtu.be/obNHZy2ewhk',containment:'#video-bg-basilica',autoPlay:true, mute:true, showControls:false, startAt:34, stopAt:257, opacity:1}">
             </div>
             <div id="video-content-basilica">
                 <h5>Basilica Santi Giovanni e Paolo</h5>
                 <p>Roma</p>
             </div>
-        </section>
 
-        <section class="events section-padding" id="events">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                    </section>
+        </section>
         <section>
-            <div id="map-canvas-1"></div>
-            <div id="map-content-wrapper-1" class="container pointer-events-none">
-                <div class="row">
-                    <div class="col-xs-offset-1 col-xs-10 col-md-offset-3 col-md-6">
-                        <div class="text-center">
-                            <div id="btn-show-content-1" class="toggle-map-content-1 pointer-events-auto">
-                                <i class="fa fa-info-circle"></i>&nbsp;&nbsp; Show info
+            <section class="events section-padding" id="events">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+            </section>
+            <section>
+                <div id="map-canvas-1"></div>
+                <div id="map-content-wrapper-1" class="container pointer-events-none">
+                    <div class="row">
+                        <div class="col-xs-offset-1 col-xs-10 col-md-offset-3 col-md-6">
+                            <div class="text-center">
+                                <div id="btn-show-content-1" class="toggle-map-content-1 pointer-events-auto">
+                                    <i class="fa fa-info-circle"></i>&nbsp;&nbsp; Show info
+                                </div>
                             </div>
-                        </div>
-                        <div id="map-content-1" class="pointer-events-auto">
-                            
+                            <div id="map-content-1" class="pointer-events-auto">
+
                                 <div class="col-md-6" style="padding: 5px; text-align: center;">
                                     <h5>Basilica di qualcosa</h5>
                                     <p>Via della Basilica, 00132 Roma RM, Italia</p>
                                 </div>
-                                
-                            
+
+
                                 <div class="row text-center">
                                     <div class="col-md-6" style="padding: 5px;">
-                                        <a class="btn btn-fill btn-small" id="btn-get-directions" 
-                                           href="https://www.google.com/maps/dir/?api=1&destination=Via+di+Casal+Montani,+00132+Roma+RM,+Italia" 
-                                           target="_blank">
-                                            <i class="fa fa-map-marker-2"></i>&nbsp;&nbsp;Ottieni Indicazioni
+                                        <a class="btn btn-fill btn-small" id="btn-get-directions-1"
+                                            href="https://www.google.com/maps/dir/?api=1&destination=Basilica+Santi+Giovanni+e+Paolo,+Piazza+Dei+SS.+Giovanni+e+Paolo,+00184+Roma+RM,+Italia/"
+                                            target="_blank">
+                                            <i class="fa fa-map-marker"></i>&nbsp;&nbsp;Ottieni Indicazioni
                                         </a>
                                     </div>
                                     <div class="col-md-6" style="padding: 5px;">
-                                    <a class="btn btn-accent btn-small" id="btn-show-map">
-                                        <i class="fa fa-map-marker-2"></i>&nbsp;&nbsp;Mostra sulla Mappa</a>
-                                    </div>     
+                                        <a class="btn btn-accent btn-small" id="btn-show-map-1">
+                                            <i class="fa fa-map-marker"></i>&nbsp;&nbsp;Mostra sulla Mappa</a>
                                     </div>
                                 </div>
-        </div>
-        </section>
-
-        <section class="events section-padding" id="events">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                    </section>
-    
-    
-
-    <div class="text-center" id="ricevimento"></div>
-    <div class="text-center">
-        <h3>Ricevimento</h3>
-        <p>La tenuta Casal Montani si trova nel cuore dei Castelli Romani. Seguite qui le indicazioni per arrivare e godervi la festa!
-            </p>
-    </div>
-
-
-<section id="video-bg-casale" class="hidden-sm hidden-xs">
-    <div id="casaleVideo" class="player"
-         data-property="{videoURL:'https://www.youtube.com/watch?v=BgqxLwEI39E',containment:'#video-bg-casale',autoPlay:true, mute:true, showControls:false, startAt:37, stopAt:50, opacity:1}">
-    </div>
-    <div id="video-content-casale">
-        <h5>Casal Montani</h5>
-        <p>Roma</p>
-    </div>
-
-<section class="events section-padding" id="events">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
+                            </div>
+                        </div>
             </section>
-<section>
-    <div id="map-canvas-2"></div>
-    <div id="map-content-wrapper-2" class="container pointer-events-none">
-        <div class="row">
-            <div class="col-xs-offset-1 col-xs-10 col-md-offset-3 col-md-6">
-                <div class="text-center">
-                    <div id="btn-show-content-2" class="toggle-map-content-2 pointer-events-auto">
-                        <i class="fa fa-info-circle"></i>&nbsp;&nbsp; Show info
-                    </div>
+        </section>
+            <section class="events section-padding" id="events">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+            </section>
+        
+
+            <div class="text-center" id="ricevimento"></div>
+            <div class="text-center">
+                <h3>Ricevimento</h3>
+                <p>La tenuta Casal Montani si trova nel cuore dei Castelli Romani. Seguite qui le indicazioni per
+                    arrivare e godervi la festa!
+                </p>
+            </div>
+
+
+            <section id="video-bg-casale" class="hidden-sm hidden-xs">
+                <div id="casaleVideo" class="player"
+                    data-property="{videoURL:'https://www.youtube.com/watch?v=BgqxLwEI39E',containment:'#video-bg-casale',autoPlay:true, mute:true, showControls:false, startAt:37, stopAt:50, opacity:1}">
                 </div>
-                <div id="map-content-2" class="pointer-events-auto">
-                    
-                        <div class="col-md-6" style="padding: 5px; text-align: center;">
-                            <h5>Casal Montani</h5>
-                            <p>Via di Casal Montani, 00132 Roma RM, Italia</p>
-                        </div>
-                        
-                    
-                        <div class="row text-center">
-                            <div class="col-md-6" style="padding: 5px;">
-                                <a class="btn btn-fill btn-small" id="btn-get-directions" 
-                                   href="https://www.google.com/maps/dir/?api=1&destination=Via+di+Casal+Montani,+00132+Roma+RM,+Italia" 
-                                   target="_blank">
-                                    <i class="fa fa-map-marker"></i>&nbsp;&nbsp;Ottieni Indicazioni
-                                </a>
+                <div id="video-content-casale">
+                    <h5>Casal Montani</h5>
+                    <p>Roma</p>
+                </div>
+
+                <section class="events section-padding" id="events">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                </section>
+                <section>
+                    <div id="map-canvas-2"></div>
+                    <div id="map-content-wrapper-2" class="container pointer-events-none">
+                        <div class="row">
+                            <div class="col-xs-offset-1 col-xs-10 col-md-offset-3 col-md-6">
+                                <div class="text-center">
+                                    <div id="btn-show-content-2" class="toggle-map-content-2 pointer-events-auto">
+                                        <i class="fa fa-info-circle"></i>&nbsp;&nbsp; Show info
+                                    </div>
+                                </div>
+                                <div id="map-content-2" class="pointer-events-auto">
+
+                                    <div class="col-md-6" style="padding: -5px; text-align: center;">
+                                        <h5>Casal Montani</h5>
+                                        <p>Via di Casal Montani, 00132 Roma RM, Italia</p>
+                                    </div>
+
+
+                                    <div class="row text-center">
+                                        <div class="col-md-6" style="padding: 5px;">
+                                            <a class="btn btn-fill btn-small" id="btn-get-directions-2"
+                                                href="https://www.google.com/maps/dir/?api=1&destination=Via+di+Casal+Montani,+00132+Roma+RM,+Italia"
+                                                target="_blank">
+                                                <i class="fa fa-map-marker"></i>&nbsp;&nbsp;Ottieni Indicazioni
+                                            </a>
+                                        </div>
+                                        <div class="col-md-6" style="padding: 5px;">
+                                            <a class="btn btn-accent btn-small" id="btn-show-map-2">
+                                                <i class="fa fa-map-marker"></i>&nbsp;&nbsp;Mostra sulla Mappa</a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-md-6" style="padding: 5px;">
-                            <a class="btn btn-accent btn-small" id="btn-show-map">
-                                <i class="fa fa-map-marker"></i>&nbsp;&nbsp;Mostra sulla Mappa</a>
-                            </div>     
-                            </div>
-                        </div>
-</div>
-</section>
-<!--    <div id="dc-modal" class="modal fade" tabindex="-1" role="dialog">
+                </section>
+                <!--    <div id="dc-modal" class="modal fade" tabindex="-1" role="dialog">
     
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -738,253 +769,270 @@ const countdownInterval = setInterval(() => {
 -->
 
 
-<section id="instagram" class="section-padding">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <h3>Viaggio di Nozze</h3>
-                <p>
-                    Non vediamo l'ora di festeggiare insieme a voi il giorno più bello della nostra vita! <br>
-                    La vostra presenza è già il regalo più grande per noi, ma se volete aiutarci a trasformare la nostra luna di miele in un sogno, trovate qui l'IBAN: <br> 
-                    <span onclick="copyIBAN()" style="color: black; cursor: pointer;">XXX</span> <br>
-                Ginevra Assogna e Vincenzo Colella
-                </p>
-                
-                <!-- Messaggio di conferma nascosto -->
-                <p id="confirmationMessage" style="display: none; color: green;">copiato</p>
-                
-                <script>
-                function copyIBAN() {
-                    const iban = "XXX"; // Inserisci qui il tuo IBAN effettivo
-                
-                    // Copia l'IBAN negli appunti
-                    navigator.clipboard.writeText(iban).then(() => {
-                        // Mostra un messaggio di conferma per l'utente
-                        const confirmationMessage = document.getElementById("confirmationMessage");
-                        confirmationMessage.style.display = "block";
-                
-                        // Nascondi il messaggio dopo 2 secondi
-                        setTimeout(() => {
-                            confirmationMessage.style.display = "none";
-                        }, 2000);
-                    }).catch(err => {
-                        console.error('Errore durante la copia negli appunti:', err);
-                    });
-                }
-                </script>
-                
-            </div>
-        </div>
-        <div class="row section-border wp7">
-            <div class="col-md-4 col-md-offset-4">
-                <img src="img/iphone_instagram.jpg">
-            </div>
-        </div>
-    </div>
-</section>
+                <section id="instagram" class="section-padding">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <h3>Viaggio di Nozze</h3>
+                                <p>
+                                    Non vediamo l'ora di festeggiare insieme a voi il giorno più bello della nostra
+                                    vita! <br>
+                                    La vostra presenza è già il regalo più grande per noi, ma se volete aiutarci a
+                                    trasformare la nostra luna di miele in un sogno, trovate qui l'IBAN: <br>
+                                    <span onclick="copyIBAN()" style="color: black; cursor: pointer;">XXX</span> <br>
+                                    Ginevra Assogna e Vincenzo Colella
+                                </p>
 
+                                <!-- Messaggio di conferma nascosto -->
+                                <p id="confirmationMessage" style="display: none; color: green;">copiato</p>
 
-<section class="rsvp text-center" id="rsvp">
+                                <script>
+                                    function copyIBAN() {
+                                        const iban = "XXX"; // Inserisci qui il tuo IBAN effettivo
 
-    <div id="rsvp-modal" class="modal fade" tabindex="-1" role="dialog">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span>
-                    </button>
-                    <div class="section-padding">
-                        <h3>Thank you!</h3>
-                        <p>We are glad to see you join us on our big day.</p>
-                        <div id="add-to-cal"></div>
-                    </div>
-                </div>
-            </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
+                                        // Copia l'IBAN negli appunti
+                                        navigator.clipboard.writeText(iban).then(() => {
+                                            // Mostra un messaggio di conferma per l'utente
+                                            const confirmationMessage = document.getElementById("confirmationMessage");
+                                            confirmationMessage.style.display = "block";
 
-    <section>
-    <div class="row section-padding">
-        <div class="col-md-4 col-md-offset-4 text-center">
-            <a class="btn btn-accent btn-small" data-toggle="modal" data-target="#dc-modal">
-                <i class="fa fa-barcode"></i>&nbsp;&nbsp;Playlist Spotify
-            </a>
-        </div>
-    </div>
+                                            // Nascondi il messaggio dopo 2 secondi
+                                            setTimeout(() => {
+                                                confirmationMessage.style.display = "none";
+                                            }, 2000);
+                                        }).catch(err => {
+                                            console.error('Errore durante la copia negli appunti:', err);
+                                        });
+                                    }
+                                </script>
 
-
-
-    <div id="dc-modal" class="modal fade" tabindex="-1" role="dialog">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span>
-                    </button>
-                    <h3 class="text-center section-padding">Vuoi metterci del tuo ?</h3>
-
-                        <strong>Playlist Spotify per il DJ set !</strong>
-                        <br>
-                        <br>
-                        Rendetevi partecipi alla scelta musicale proponendo le vostre canzoni preferite che saranno poi riprodotte durante il DJ set !
-                        Inseritele nella playlist spotify qui sotto e se supereranno la nostra selezione, saranno parte della nostra festa
-                        <br><br>
-                        
-                        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/636O9fM47RYzxoykegEBjO?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-            </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
-    </div>
-
-</section>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 col-md-offset-3">
-                <h3>Sarete dei nostri? <br> Confermate qui la vostra presenza! 
-                    </h3>
-                <p>Per aiutarci ad organizzare al meglio il nostro grande giorno, vi chiediamo gentilmente di farci sapere entro il giorno 30 luglio 2025. Grazie!</p>
-                <form id="rsvp-form" class="rsvp-form" action="" method="POST">
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6">
-                            <div class="form-input-group">
-                                <i class="fa fa-user"></i>
-                                <input name="name" class="" placeholder="Nome e Cognome" required>
-                            </div>
-                            
-                        </div>
-                        <div class="col-md-6 col-sm-6">
-                            <div class="form-input-group">
-                                <i class="fa fa-envelope"></i>
-                                <input type="email" name="email" class="" placeholder="La tua email" required>
-                            </div>
-                            
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6">
-                            <div class="form-input-group">
-                                <i class="fa fa-users"></i>
-                                <input type="number" name="extras" class="extras" min="0" max="4" placeholder=" # Partner" required>
                             </div>
                         </div>
-                        <div class="col-md-6 col-sm-6">
-                            <div class="form-input-group">
-                                <i class="fas fa-utensils"></i> <!-- Icona del cibo -->
-                                <input type="text" name="invite_code" id="allergie" class="extras" placeholder="Allergie/Richieste particolari">
+                        <div class="row section-border wp7">
+                            <div class="col-md-4 col-md-offset-4">
+                                <img src="img/iphone_instagram.jpg">
                             </div>
                         </div>
                     </div>
-                    <div id="plus-one-container"></div>
-                    <div class="row">
-                        <div class="col-md-12" id="alert-wrapper">
-                            
+                </section>
+
+
+                <section class="rsvp text-center" id="rsvp">
+
+                    <div id="rsvp-modal" class="modal fade" tabindex="-1" role="dialog">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span>&times;</span>
+                                    </button>
+                                    <div class="section-padding">
+                                        <h3>Thank you!</h3>
+                                        <p>We are glad to see you join us on our big day.</p>
+                                        <div id="add-to-cal"></div>
+                                    </div>
+                                </div>
+                            </div><!-- /.modal-content -->
+                        </div><!-- /.modal-dialog -->
+                    </div><!-- /.modal -->
+
+                    <section>
+                        <div class="row section-padding">
+                            <div class="col-md-4 col-md-offset-4 text-center">
+                                <a class="btn btn-accent btn-small" data-toggle="modal" data-target="#dc-modal">
+                                    <i class="fa fa-barcode"></i>&nbsp;&nbsp;Playlist Spotify
+                                </a>
+                            </div>
+                        </div>
+
+
+
+                        <div id="dc-modal" class="modal fade" tabindex="-1" role="dialog">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <button type="button" class="close" data-dismiss="modal"
+                                            aria-label="Close"><span>&times;</span>
+                                        </button>
+                                        <h3 class="text-center section-padding">Vuoi metterci del tuo ?</h3>
+
+                                        <strong>Playlist Spotify per il DJ set !</strong>
+                                        <br>
+                                        <br>
+                                        Rendetevi partecipi alla scelta musicale proponendo le vostre canzoni preferite
+                                        che saranno poi riprodotte durante il DJ set !
+                                        Inseritele nella playlist spotify qui sotto e se supereranno la nostra
+                                        selezione, saranno parte della nostra festa
+                                        <br><br>
+
+                                        <iframe style="border-radius:12px"
+                                            src="https://open.spotify.com/embed/playlist/636O9fM47RYzxoykegEBjO?utm_source=generator"
+                                            width="100%" height="352" frameBorder="0" allowfullscreen=""
+                                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                                            loading="lazy"></iframe>
+                                    </div><!-- /.modal-content -->
+                                </div><!-- /.modal-dialog -->
+                            </div><!-- /.modal -->
+                        </div>
+
+                    </section>
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 col-md-offset-3">
+                                <h3>Sarete dei nostri? <br> Confermate qui la vostra presenza!
+                                </h3>
+                                <p>Per aiutarci ad organizzare al meglio il nostro grande giorno, vi chiediamo
+                                    gentilmente di farci sapere entro il giorno 30 luglio 2025. Grazie!</p>
+                                <form id="rsvp-form" class="rsvp-form" action="" method="POST">
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-6">
+                                            <div class="form-input-group">
+                                                <i class="fa fa-user"></i>
+                                                <input name="name" class="" placeholder="Nome e Cognome" required>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-6 col-sm-6">
+                                            <div class="form-input-group">
+                                                <i class="fa fa-envelope"></i>
+                                                <input type="email" name="email" class="" placeholder="La tua email"
+                                                    required>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-6">
+                                            <div class="form-input-group">
+                                                <i class="fa fa-users"></i>
+                                                <input type="number" name="extras" class="extras" min="0" max="4"
+                                                    placeholder=" # Partner" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-sm-6">
+                                            <div class="form-input-group">
+                                                <i class="fas fa-utensils"></i> <!-- Icona del cibo -->
+                                                <input type="text" name="invite_code" id="allergie" class="extras"
+                                                    placeholder="Allergie/Richieste particolari">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="plus-one-container"></div>
+                                    <div class="row">
+                                        <div class="col-md-12" id="alert-wrapper">
+
+                                        </div>
+                                    </div>
+                                    <button class="btn-fill rsvp-btn">Ci sarò!</button>
+                                </form>
+                            </div>
                         </div>
                     </div>
-                    <button class="btn-fill rsvp-btn">Ci sarò!</button>
-                </form>
-            </div>
-        </div>
-    </div>
 
-    <script>
-        document.getElementById("rsvp-form").addEventListener("submit", function (event) {
-            event.preventDefault(); // Evita il ricaricamento della pagina
+                    <script>
+                        document.getElementById("rsvp-form").addEventListener("submit", function (event) {
+                            event.preventDefault(); // Evita il ricaricamento della pagina
 
-            // Recupera i dati del form
-            const formData = new FormData(event.target);
+                            // Recupera i dati del form
+                            const formData = new FormData(event.target);
 
-            // Crea l'oggetto per EmailJS
-            const templateParams = {
-                name: formData.get("name"),
-                email: formData.get("email"),
-                extras: formData.get("extras"),
-                allergies: formData.get("allergies"),
-            };
+                            // Crea l'oggetto per EmailJS
+                            const templateParams = {
+                                name: formData.get("name"),
+                                email: formData.get("email"),
+                                extras: formData.get("extras"),
+                                allergies: formData.get("allergies"),
+                            };
 
-            // Invia l'email
-            emailjs.send("service_matrimonio_test", "template_matrimonio_test", templateParams)
-                .then(function () {
-                    // Mostra un messaggio di conferma
-                    document.getElementById("confirmation-message").style.display = "block";
-                }, function (error) {
-                    console.error("Errore nell'invio dell'email:", error);
-                    alert("Si è verificato un errore. Riprova più tardi.");
-                });
-        });
-    </script>
-    
-    <style>
-        .form-input-group {
-            display: flex;
-            align-items: center;
-            margin-bottom: 15px;
-        }
-        .form-input-group i {
-            margin-right: 10px;
-        }
-    </style>
-    
-    <script>
-    document.querySelector('input[name="extras"]').addEventListener('input', function() {
-        const plusOneContainer = document.getElementById('plus-one-container');
-        plusOneContainer.innerHTML = ''; // Pulisce i campi esistenti
-        const numExtras = parseInt(this.value, 10);
-    
-        for (let i = 1; i <= numExtras; i++) {
-            const plusOneGroup = document.createElement('div');
-            plusOneGroup.className = 'form-input-group';
-            plusOneGroup.innerHTML = `
+                            // Invia l'email
+                            emailjs.send("service_matrimonio_test", "template_matrimonio_test", templateParams)
+                                .then(function () {
+                                    // Mostra un messaggio di conferma
+                                    document.getElementById("confirmation-message").style.display = "block";
+                                }, function (error) {
+                                    console.error("Errore nell'invio dell'email:", error);
+                                    alert("Si è verificato un errore. Riprova più tardi.");
+                                });
+                        });
+                    </script>
+
+                    <style>
+                        .form-input-group {
+                            display: flex;
+                            align-items: center;
+                            margin-bottom: 15px;
+                        }
+
+                        .form-input-group i {
+                            margin-right: 10px;
+                        }
+                    </style>
+
+                    <script>
+                        document.querySelector('input[name="extras"]').addEventListener('input', function () {
+                            const plusOneContainer = document.getElementById('plus-one-container');
+                            plusOneContainer.innerHTML = ''; // Pulisce i campi esistenti
+                            const numExtras = parseInt(this.value, 10);
+
+                            for (let i = 1; i <= numExtras; i++) {
+                                const plusOneGroup = document.createElement('div');
+                                plusOneGroup.className = 'form-input-group';
+                                plusOneGroup.innerHTML = `
                 <i class="fa fa-users"></i>
                 <input type="text" name="plus_one_name_${i}" placeholder="Nome e Cognome del +${i}">
             `;
-            plusOneContainer.appendChild(plusOneGroup);
-        }
-    });
-    </script>
-    
-    
-</section>
+                                plusOneContainer.appendChild(plusOneGroup);
+                            }
+                        });
+                    </script>
 
-<div class="col-md-6">
-    <h5>Ginevra e Vincenzo</h5>
-    <p><i class="fa fa-mobile"></i> <a href="tel://+393473145983">+39 3473145983</a><br>
-        <i class="fa fa-mobile"></i> <a href="tel://+393451045491">+39 3451045491</a></p>
-</div>
 
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 text-center content">
-                <span class="to-top-wrapper"><a href="#top" class="to-top"><i class="fa fa-angle-up"></i></a></span>
-                <p>Ginevra <span class="fa fa-heart pulse2"></span> Vincenzo</p>
-            </div>
-        </div>
-    </div>
-</footer>
-<script src="js/vendor/jquery-1.11.2.min.js" onerror="loadJsFromCDN('jquery.js')"></script>
-<script src="node_modules/waypoints/lib/jquery.waypoints.min.js" onerror="loadJsFromCDN('waypoints.js')"></script>
-<script src="js/jquery.fancybox.pack.js"></script>
-<script src="js/vendor/bootstrap.min.js"></script>
-<script src="js/jquery.flexslider-min.js"></script>
-<script src="js/jquery.mb.YTPlayer.min.js"></script>
-<script src="js/vendor/ouical.js"></script>
-<script src="js/scripts.min.js"></script>
-<script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCrWAnJjVuHO6Zape3rDlhZhTl6wdvx9nQ&callback=initBBSRMap"></script>
-<!-- Google Analytics -->
-<script>
-    (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function () {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-    ga('create', 'UA-46465113-4', 'auto');
-    ga('send', 'pageview');
-</script>
+                </section>
+
+                <div class="col-md-6">
+                    <h5>Ginevra e Vincenzo</h5>
+                    <p><i class="fa fa-mobile"></i> <a href="tel://+393473145983">+39 3473145983</a><br>
+                        <i class="fa fa-mobile"></i> <a href="tel://+393451045491">+39 3451045491</a>
+                    </p>
+                </div>
+
+                <footer>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12 text-center content">
+                                <span class="to-top-wrapper"><a href="#top" class="to-top"><i
+                                            class="fa fa-angle-up"></i></a></span>
+                                <p>Ginevra <span class="fa fa-heart pulse2"></span> Vincenzo</p>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+                <script src="js/vendor/jquery-1.11.2.min.js" onerror="loadJsFromCDN('jquery.js')"></script>
+                <script src="node_modules/waypoints/lib/jquery.waypoints.min.js"
+                    onerror="loadJsFromCDN('waypoints.js')"></script>
+                <script src="js/jquery.fancybox.pack.js"></script>
+                <script src="js/vendor/bootstrap.min.js"></script>
+                <script src="js/jquery.flexslider-min.js"></script>
+                <script src="js/jquery.mb.YTPlayer.min.js"></script>
+                <script src="js/vendor/ouical.js"></script>
+                <script src="js/scripts.min.js"></script>
+                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCrWAnJjVuHO6Zape3rDlhZhTl6wdvx9nQ&callback=initMaps" async defer></script>
+                    
+                    (function (i, s, o, g, r, a, m) {
+                        i['GoogleAnalyticsObject'] = r;
+                        i[r] = i[r] || function () {
+                            (i[r].q = i[r].q || []).push(arguments)
+                        }, i[r].l = 1 * new Date();
+                        a = s.createElement(o),
+                            m = s.getElementsByTagName(o)[0];
+                        a.async = 1;
+                        a.src = g;
+                        m.parentNode.insertBefore(a, m)
+                    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+                    ga('create', 'UA-46465113-4', 'auto');
+                    ga('send', 'pageview');
+                </script>
 </body>
+
 </html>
