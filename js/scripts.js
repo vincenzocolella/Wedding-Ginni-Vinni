@@ -1,7 +1,7 @@
 function initMaps() {
     // Map coordinates
-    const casalMontaniLocation = { lat: 41.174577, lng: 14.388032 }; // Basilica coordinates (nuovo)
-    const basilicaLocation = { lat: 41.889744, lng: 12.494901 }; // Casal Montani coordinates
+    const casalMontaniLocation = { lat: 41.839033, lng: 12.714583 }; // Basilica coordinates (nuovo)
+    const basilicaLocation = { lat: 41.886383, lng: 12.492836 }; // Casal Montani coordinates
   
     // Map 1 - Basilica
     const map1 = new google.maps.Map(document.getElementById('map-canvas-1'), {

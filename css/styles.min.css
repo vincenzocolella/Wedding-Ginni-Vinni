@@ -2,7 +2,7 @@
 @import "https://fonts.googleapis.com/css?family=Merriweather:400,300,400italic,300italic,700,700italic";
 @import "https://fonts.googleapis.com/css?family=Nunito:400,300,700";
 p {
-  font-size: 18px;
+  font-size: 17.5px;
   line-height: 29px;
   color: rgba(28, 54, 83, 0.7);
   padding-bottom: 20px;
@@ -17,7 +17,7 @@ h2 {
   font-weight: 300;
   color: #3d4351;
 }
-h3 {
+h3 { /* titoli */
   color: #3d4351;
   font-size: 21px;
   font-weight: 700;
@@ -29,10 +29,10 @@ h4 {
   font-size: 18px;
 }
 h5 {
-  font-size: 15px;
+  font-size: 18px;
   color: #3d4351;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 600;
 }
 .btn {
   font-size: 13px;
