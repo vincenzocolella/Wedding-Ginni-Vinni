@@ -34,6 +34,19 @@ h5 {
   text-transform: uppercase;
   font-weight: 600;
 }
+
+h6 {
+  font-size: 30px;
+}
+
+hr.my-4 {
+  border: 0;
+  height: 0.23px;
+  background-color: #ccc; /* Colore della linea */
+  width: 60%; /* Larghezza della riga */
+  margin: 20px auto; /* Centra la riga e aggiungi margine */
+}
+
 .btn {
   font-size: 13px;
   border: solid 2px;
@@ -88,12 +101,19 @@ h5 {
 .btn-margin-right {
   margin-right: 20px;
 }
-section.intro,
-section.features-extra,
-section.rsvp {
+section.invitation,
+section.intro {
   background: #fff;
 }
-section.features,
+section.eng-pics {
+  background: #f8f9fd;
+}
+section.features-extra {
+  background: #fff;}
+section.rsvp {
+  background: #fff;}
+section.features {
+  background: #fff;}
 section.events,
 section.blog {
   background: #f8f9fd;
